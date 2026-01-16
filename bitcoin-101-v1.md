@@ -42,70 +42,6 @@ Si sales usando bitcoin, ya ganaste.
 -->
 
 ---
-
-<style scoped>
-section {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
-  padding: 50px;
-  gap: 30px;
-}
-.content-left {
-  flex: 0 0 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.content-left h2 {
-  margin-bottom: 20px;
-}
-.image-middle {
-  flex: 1;
-  display: flex;
-  align-items: stretch;
-}
-.image-middle img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: top;
-}
-.image-right {
-  flex: 1;
-  display: flex;
-  align-items: stretch;
-}
-.image-right img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: top right;
-}
-</style>
-
-<div class="content-left">
-
-## http://blink.sv/
-
-Blink: bitcoin beach wallet
-
-</div>
-
-<div class="image-middle">
-
-![Blink Website](./blink-website.png)
-
-</div>
-
-<div class="image-right">
-
-![Blink App](./blink-app.jpg)
-
-</div>
-
----
 ## Para quién es esto 👤
 
 🧠 para personas que piensan antes de confiar  
@@ -253,6 +189,71 @@ No seguimos hasta que todos lo tengan.
 -->
 
 ---
+
+<style scoped>
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 30px;
+}
+.content-left {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-left h2 {
+  margin-bottom: 20px;
+}
+.image-middle {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+.image-middle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top right;
+}
+.image-right {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+.image-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top right;
+}
+</style>
+
+<div class="content-left">
+
+## http://blink.sv/
+
+Blink: bitcoin beach wallet
+
+</div>
+
+<div class="image-middle">
+
+![Blink Website](./blink-website.png)
+
+</div>
+
+<div class="image-right">
+
+![Blink App](./blink-app.jpg)
+
+</div>
+
+---
+
 
 ## Primera transacción 🔁
 
@@ -406,6 +407,27 @@ No tienes que creerme.
 Úsalo.
 Decide tú.
 -->
+
+---
+
+<style scoped>
+section {
+  text-align: center;
+  justify-content: center;
+}
+</style>
+
+# Mi Primier Bitcoin
+
+https://myfirstbitcoin.org/
+
+# ColBitcoin
+
+https://colbitcoin.com/
+
+# Satoshi Team Medellin 
+
+https://www.instagram.com/satoshiteam_/
 
 ---
 
