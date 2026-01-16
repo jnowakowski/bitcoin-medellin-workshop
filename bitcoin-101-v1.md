@@ -4,6 +4,33 @@ theme: default
 paginate: true
 ---
 
+<style>
+section {
+  font-size: 33.6px;
+}
+h1 {
+  font-size: 67.2px;
+}
+h2 {
+  font-size: 50.4px;
+}
+h3 {
+  font-size: 40.8px;
+}
+li, p {
+  font-size: 33.6px;
+  line-height: 1.5;
+}
+footer {
+  font-size: 18px;
+  text-align: center;
+}
+section:first-of-type {
+  text-align: center;
+  justify-content: center;
+}
+</style>
+
 # Bitcoin en la vida diaria 💸
 ## Simple. Práctico. Sin humo.
 
@@ -16,17 +43,81 @@ Si sales usando bitcoin, ya ganaste.
 
 ---
 
-## Quién eres tú 👤
+<style scoped>
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 30px;
+}
+.content-left {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-left h2 {
+  margin-bottom: 20px;
+}
+.image-middle {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+.image-middle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+.image-right {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+.image-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top right;
+}
+</style>
 
-😟 miedo a estafas  
-🤐 miedo a parecer ignorante  
-🤔 curiosidad real  
-🧠 ganas de aprender  
+<div class="content-left">
+
+## http://blink.sv/
+
+Blink: bitcoin beach wallet
+
+</div>
+
+<div class="image-middle">
+
+![Blink Website](./blink-website.png)
+
+</div>
+
+<div class="image-right">
+
+![Blink App](./blink-app.jpg)
+
+</div>
+
+---
+## Para quién es esto 👤
+
+🧠 para personas que piensan antes de confiar  
+👀 que hacen preguntas  
+⚖️ que no compran cuentos  
+🚀 que quieren aprender algo útil  
 
 <!--
-Si sientes esto, estás en el lugar correcto.
-Aquí nadie sabe todo.
-Bitcoin se aprende usándolo, no estudiándolo.
+Esto no es para promesas rápidas.
+Es para personas prácticas.
+Aquí nadie viene a convencer.
+Solo mostramos cómo funciona y tú decides.
 -->
 
 ---
@@ -106,12 +197,42 @@ Como efectivo y banco.
 📱 enviar dinero  
 🏪 vender algo  
 🏧 cambiar a pesos  
+📈 invertir de forma segura  
 
 <!--
-Todo lo que hacemos hoy responde a esto.
-Nada más.
+Bitcoin no es solo para pagar.
+También sirve para guardar valor en el tiempo.
+Pero solo de una forma específica y simple.
 -->
+---
+## Lo que NO hacemos 🚫
 
+📉 trading  
+🪙 criptomonedas  
+🎲 apuestas  
+📊 predicción de precios  
+
+<!--
+No operamos.
+No recomendamos tokens.
+No prometemos retornos.
+No jugamos a ser expertos.
+-->
+---
+## Fuera de nuestro horizonte ⛔
+
+🧪 productos experimentales  
+🧠 estrategias complejas  
+🏦 yield, lending, derivados  
+🧩 DeFi  
+
+<!--
+Todo esto existe.
+Pero no es para empezar.
+Primero dinero.
+Primero uso.
+Primero entender.
+-->
 ---
 
 ## Wallet 📲
@@ -212,9 +333,39 @@ Sí funciona.
 Pero hay que hacerlo bien.
 ColBitcoin muestra cómo.
 -->
-
 ---
+## Inversión segura 📈
 
+DCA  
+Dollar Cost Average  
+
+⏱️ compras pequeñas y regulares  
+🧠 no requiere conocimiento técnico  
+⚖️ reduce el riesgo  
+😴 tranquilidad y buen dormir  
+
+<!--
+DCA significa comprar poco a poco, con el tiempo.
+No intentas adivinar el precio.
+No miras gráficos.
+No tomas decisiones emocionales.
+Es la forma más simple y más usada por gente seria.
+-->
+---
+## Qué DCA NO es 🚫
+
+❌ no es trading  
+❌ no es hacerse rico rápido  
+❌ no es mirar el precio cada día  
+
+Es disciplina. Nada más.
+
+<!--
+Si buscas adrenalina, esto no es para ti.
+DCA es aburrido.
+Y justamente por eso funciona.
+-->
+---
 ## Comunidad 🤝
 
 📍 Medellín  
@@ -246,8 +397,8 @@ Aquí están los siguientes.
 
 ## Para llevar 🧠
 
-Bitcoin es dinero  
-que respeta  
+Bitcoin es dinero
+que respeta
 tu trabajo y tu tiempo
 
 <!--
@@ -255,3 +406,20 @@ No tienes que creerme.
 Úsalo.
 Decide tú.
 -->
+
+---
+
+<style scoped>
+section {
+  text-align: center;
+  justify-content: center;
+}
+</style>
+
+# Contacto
+
+**Janusz Nowakowski**
+
+https://cloudindustry.ch/bitcoin/
+
+**Bitcoin Medellin 2026**

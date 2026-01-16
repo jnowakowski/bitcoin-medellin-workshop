@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(marp --help:*)",
+      "Bash(chmod:*)",
+      "Bash(./generate-presentation.sh:*)"
+    ]
+  }
+}
