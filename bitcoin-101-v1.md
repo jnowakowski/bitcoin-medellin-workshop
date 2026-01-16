@@ -107,17 +107,42 @@ Tiene reglas fijas.
 
 ## Lightning vs Onchain ⚖️
 
-⚡ Lightning  
-💵 como efectivo  
-⚡ rápido  
-💸 barato  
-☕ pagos diarios  
+<style scoped>
+.columns {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+.column {
+  flex: 1;
+}
+.column h3 {
+  margin-bottom: 30px;
+}
+</style>
 
-⛓️ Onchain  
-🏦 como transferencia bancaria  
-🐢 más lento  
-💰 más caro  
-🔒 montos grandes  
+<div class="columns">
+<div class="column">
+
+### ⚡ Lightning
+
+💵 como efectivo
+⚡ rápido
+💸 barato
+☕ pagos diarios
+
+</div>
+<div class="column">
+
+### ⛓️ Onchain
+
+🏦 como transferencia bancaria
+🐢 más lento
+💰 más caro
+🔒 montos grandes
+
+</div>
+</div>
 
 <!--
 No eliges uno.

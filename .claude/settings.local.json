@@ -3,7 +3,8 @@
     "allow": [
       "Bash(marp --help:*)",
       "Bash(chmod:*)",
-      "Bash(./generate-presentation.sh:*)"
+      "Bash(./generate-presentation.sh:*)",
+      "Bash(git add:*)"
     ]
   }
 }
