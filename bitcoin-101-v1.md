@@ -237,23 +237,23 @@ section {
   flex: 1;
   display: flex;
   align-items: stretch;
+  justify-content: flex-end;
 }
 .image-middle img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
-  object-position: top right;
 }
 .image-right {
   flex: 1;
   display: flex;
   align-items: stretch;
+  justify-content: flex-end;
 }
 .image-right img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
-  object-position: top right;
 }
 </style>
 

@@ -4,7 +4,22 @@
       "Bash(marp --help:*)",
       "Bash(chmod:*)",
       "Bash(./generate-presentation.sh:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git push)",
+      "Bash(gh api:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run:*)",
+      "Bash(grep:*)",
+      "Bash(done)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(for file in /Users/orion/_lab/CloudIndustry.ch/_interviews/en/*.md)",
+      "Bash(do head -20 \"$file\")",
+      "Bash(find . -name \"*.md\" -exec sh -c 'echo \"\"=== {} ===\"\" && head -10 \"\"{}\"\" | grep -E \"\"\\(canonical|source|original|author|published|date\\)\"\"' ;)",
+      "Bash(cat:*)"
     ]
   }
 }
